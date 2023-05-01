@@ -1,0 +1,16 @@
+// Containers
+
+.containerRows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.containerInfo {
+    @extend .containerRows;
+    height: 400px;
+    width: 100%;
+    background-image: url(/img/fondoHomeGarabatos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

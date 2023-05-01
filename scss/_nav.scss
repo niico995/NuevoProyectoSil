@@ -1,0 +1,34 @@
+.dropPerfil {
+  background-color: $colorNavBlack;
+  border: none;
+}
+.dropPerfilUl,.dropdown-menu {
+  background-color: $colorNavBlack;
+  .drops,.dropdown-item {
+    color: white;
+      &:hover {
+      background-color: white;
+      color: $mainColor;
+    }
+  }
+}
+
+.nav-link{
+    color: white;
+    &:hover{
+        color: $mainColor;
+    }
+}
+
+.nav-item:active{
+    color: $mainColor;
+}
+
+
+.carrito {
+    background-color: $colorNavBlack;
+    color: white;
+    &:hover{
+        color: $mainColor;
+    }
+}
