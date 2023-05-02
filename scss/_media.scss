@@ -299,6 +299,23 @@
         display: none;
     }
    
+
+
+
+
+    .containerForm {
+        height: 250px;
+        width: 350px;
+    }
+    .placeholderSurpriser {
+        font-size: 10px;
+        border-radius: 15px;
+        width: 300px;
+        height: 42px;
+        margin-bottom: 10px;
+        border: none;
+    
+    }
 }
 
 
@@ -588,7 +605,19 @@
     }
    
     
-    
-   
+    //Surpriser
+
+    .containerForm {
+        height: 300px;
+        width: 380px;
+        margin-left: 200px;
+    }
+    .placeholderSurpriser {
+        width: 330px;
+    }
+    .buttonSupriser {
+        margin-top: 10px;
+        margin-left: 40px;
+    }
 }
 

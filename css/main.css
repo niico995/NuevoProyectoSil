@@ -531,6 +531,61 @@ a {
   grid-area: ocho;
 }
 
+.containerSurpriser {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../img/surpriserHead.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: space-between;
+}
+
+.tituloSurpriser {
+  font-size: 45px;
+  color: white;
+  padding: 35px;
+}
+
+.parrafoSurpriser {
+  font-size: 20px;
+  line-height: 22px;
+  color: white;
+  padding: 35px;
+}
+
+.containerForm {
+  height: 350px;
+  width: 500px;
+  background-color: rgb(248, 219, 215);
+  border-radius: 15px;
+  display: flex;
+  padding: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 35px;
+}
+
+.placeholderSurpriser {
+  font-size: 10px;
+  border-radius: 15px;
+  width: 450px;
+  height: 42px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.buttonSupriser {
+  background-color: rgb(219, 75, 56);
+  color: white;
+  width: 250px;
+  height: 32px;
+  border-radius: 15px;
+  font-size: 16px;
+  margin-top: 50px;
+  border: none;
+}
+
 @media (max-width: 420px) {
   .cabecera {
     height: 150px;
@@ -768,6 +823,18 @@ a {
   .secondFour {
     display: none;
   }
+  .containerForm {
+    height: 250px;
+    width: 350px;
+  }
+  .placeholderSurpriser {
+    font-size: 10px;
+    border-radius: 15px;
+    width: 300px;
+    height: 42px;
+    margin-bottom: 10px;
+    border: none;
+  }
 }
 @media (max-width: 780px) {
   .cabecera {
@@ -982,6 +1049,18 @@ a {
   }
   .card4 {
     display: none;
+  }
+  .containerForm {
+    height: 300px;
+    width: 380px;
+    margin-left: 200px;
+  }
+  .placeholderSurpriser {
+    width: 330px;
+  }
+  .buttonSupriser {
+    margin-top: 10px;
+    margin-left: 40px;
   }
 }
 
