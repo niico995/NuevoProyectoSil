@@ -307,6 +307,44 @@ a {
   font-size: 36px;
 }
 
+.containerQS {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  column-gap: 55px;
+}
+.containerQS img {
+  width: 100%;
+}
+.containerQS p {
+  font-size: 24px;
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 35px;
+}
+.containerQS h1 {
+  font-size: 36px;
+  margin-left: 30px;
+  margin-top: 35px;
+  animation: titulo 2.5s infinite;
+}
+
+@keyframes titulo {
+  0% {
+    color: crimson;
+  }
+  25% {
+    color: red;
+  }
+  50% {
+    color: #4d1919;
+  }
+  75% {
+    color: rgb(160, 41, 11);
+  }
+  100% {
+    color: crimson;
+  }
+}
 @media (max-width: 420px) {
   .cabecera {
     height: 150px;
@@ -484,6 +522,25 @@ a {
     background-color: white;
     filter: invert(1);
   }
+  .containerQS {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .containerQS .imagenQS {
+    width: 100%;
+  }
+  .containerQS .parrafoQS {
+    font-size: 20px;
+    width: 90%;
+    margin-left: 5px;
+    margin-top: 12px;
+  }
+  .containerQS .textoQS {
+    font-size: 36px;
+    margin-left: 5px;
+    margin-top: 35px;
+    animation: titulo 2.5s infinite;
+  }
 }
 @media (max-width: 780px) {
   .cabecera {
@@ -643,43 +700,24 @@ a {
     background-color: white;
     filter: invert(1);
   }
-}
-.containerQS {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  column-gap: 55px;
-}
-.containerQS img {
-  width: 100%;
-}
-.containerQS p {
-  font-size: 24px;
-  width: 90%;
-  margin-left: 30px;
-  margin-top: 35px;
-}
-.containerQS h1 {
-  font-size: 36px;
-  margin-left: 30px;
-  margin-top: 35px;
-  animation: titulo 2.5s infinite;
-}
-
-@keyframes titulo {
-  0% {
-    color: crimson;
+  .containerQS {
+    display: flex;
+    flex-direction: column-reverse;
   }
-  25% {
-    color: red;
+  .containerQS .imagenQS {
+    width: 100%;
   }
-  50% {
-    color: #4d1919;
+  .containerQS .parrafoQS {
+    font-size: 20px;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 12px;
   }
-  75% {
-    color: rgb(160, 41, 11);
-  }
-  100% {
-    color: crimson;
+  .containerQS .textoQS {
+    font-size: 36px;
+    margin-left: 30px;
+    margin-top: 35px;
+    animation: titulo 2.5s infinite;
   }
 }
 

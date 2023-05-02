@@ -230,6 +230,26 @@
         background-color: white;
         filter: invert(1);
     }
+
+    .containerQS {
+        display: flex;
+        flex-direction: column-reverse;
+        .imagenQS {
+            width:100%;
+        }
+        .parrafoQS {
+            font-size: $textL;
+            width: 90%;
+            margin-left: 5px;
+            margin-top: 12px;
+        }
+        .textoQS {
+            font-size: 36px;
+            margin-left: 5px;
+            margin-top: 35px;
+            animation: titulo 2.5s infinite;
+        }
+    }
 }
 
 
@@ -448,4 +468,26 @@
         background-color: white;
         filter: invert(1);
     }
+
+    .containerQS {
+        display: flex;
+        flex-direction: column-reverse;
+        .imagenQS {
+            width:100%;
+        }
+        .parrafoQS {
+            font-size: $textL;
+            width: 90%;
+            margin-left: 30px;
+            margin-top: 12px;
+        }
+        .textoQS {
+            font-size: 36px;
+            margin-left: 30px;
+            margin-top: 35px;
+            animation: titulo 2.5s infinite;
+        }
+    }
+   
 }
+
