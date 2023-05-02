@@ -38,3 +38,19 @@
     
 }
 
+
+.containerRegalos1 {
+    display: flex;
+    justify-content:center;
+}
+
+.invite, .presents{
+    margin-top: 150px;
+}
+
+.tituloSection{
+    font-weight: 700;
+}
+.parrafoSectionFormato {
+    font-size: $textL;
+}

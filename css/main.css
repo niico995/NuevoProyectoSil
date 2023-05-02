@@ -345,6 +345,23 @@ a {
     color: crimson;
   }
 }
+.containerRegalos1 {
+  display: flex;
+  justify-content: center;
+}
+
+.invite, .presents {
+  margin-top: 150px;
+}
+
+.tituloSection {
+  font-weight: 700;
+}
+
+.parrafoSectionFormato {
+  font-size: 20px;
+}
+
 @media (max-width: 420px) {
   .cabecera {
     height: 150px;
@@ -541,6 +558,12 @@ a {
     margin-top: 35px;
     animation: titulo 2.5s infinite;
   }
+  .parrafoSectionFormato {
+    margin-top: -105px;
+    margin-left: 15px;
+    width: 90%;
+    text-align: center;
+  }
 }
 @media (max-width: 780px) {
   .cabecera {
@@ -718,6 +741,12 @@ a {
     margin-left: 30px;
     margin-top: 35px;
     animation: titulo 2.5s infinite;
+  }
+  .parrafoSectionFormato {
+    margin-top: -155px;
+    margin-left: 15px;
+    width: 90%;
+    text-align: center;
   }
 }
 
