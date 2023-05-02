@@ -301,21 +301,26 @@
    
 
 
+    // Surpriser
 
-
+    
+   
     .containerForm {
-        height: 250px;
-        width: 350px;
+        height: 300px;
+        width: 80px;
     }
     .placeholderSurpriser {
-        font-size: 10px;
-        border-radius: 15px;
-        width: 300px;
-        height: 42px;
-        margin-bottom: 10px;
-        border: none;
-    
+        width: 330px;
     }
+    .buttonSupriser {
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+
+
+    
+    
 }
 
 
@@ -609,15 +614,15 @@
 
     .containerForm {
         height: 300px;
-        width: 380px;
-        margin-left: 200px;
+        width: 280px;
+
     }
     .placeholderSurpriser {
-        width: 330px;
+        width: 230px;
     }
     .buttonSupriser {
         margin-top: 10px;
-        margin-left: 40px;
+        margin-left: -10px;
     }
 }
 
